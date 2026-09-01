@@ -15,7 +15,7 @@ public class ScriptableObjectTableAssetOpener
     [UnityEditor.Callbacks.OnOpenAsset]
     public static bool OnOpen(int instanceID, int line)
     {
-        if (EditorUtility.InstanceIDToObject(instanceID) is ScriptableObjectTable table && table.typeReference.Type != null)
+        if (EditorUtility.EntityIdToObject(instanceID) is ScriptableObjectTable table && table.typeReference.Type != null)
         {
             ScriptableObjectTableWindow.Open(table);
             return true;
