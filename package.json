@@ -1,6 +1,6 @@
 {
   "name": "com.lkwarwick.scriptable-object-tables",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "displayName": "Scriptable Object Tables",
   "description": "Manage groups of Unity's ScriptableObject within a single window.",
   "unity": "2022.3",
